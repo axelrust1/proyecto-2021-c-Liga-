@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LigaPro22.ControlFaltas">
+    <Position X="9" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlFaltas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LigaPro22.Clubes">
+    <Position X="0.5" Y="17.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAACAEAAAgAAAAAAAAAAEAAAABAAAAgA=</HashCode>
+      <FileName>Clubes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="codigopostal" />
+      <Field Name="domicilio" />
+      <Field Name="fundacion" />
+      <Field Name="id" />
+      <Field Name="nombre" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.Conexion">
+    <Position X="5.25" Y="14.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAEAAAAABAAAAAAAAgARAAA=</HashCode>
+      <FileName>Conexion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bd" />
+      <Field Name="password" />
+      <Field Name="puerto" />
+      <Field Name="servidor" />
+      <Field Name="username" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.ControlClubes">
+    <Position X="9" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlClubes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LigaPro22.ControlJugadores">
+    <Position X="8.5" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlJugadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LigaPro22.controlUsuarios">
+    <Position X="1.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controlUsuarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LigaPro22.controlSesion">
+    <Position X="0.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>controlSesion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LigaPro22.Faltas">
+    <Position X="5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAEAAAUAAAIFAAACAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Faltas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="amarilla" />
+      <Field Name="explicacion" />
+      <Field Name="fecha" />
+      <Field Name="idJugador" />
+      <Field Name="roja" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.Jugadores">
+    <Position X="19.25" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAECAAABAASQAACEkAAAgBAAAAAAABAEAAAQBAAAAgA=</HashCode>
+      <FileName>Jugadores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="apellido" />
+      <Field Name="domicilio" />
+      <Field Name="nombre" />
+      <Field Name="sexo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.ModeloClubes">
+    <Position X="6.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAQACA=</HashCode>
+      <FileName>ModeloClubes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="comando" />
+      <Field Name="miConexion" />
+      <Field Name="reader" />
+      <Field Name="sql" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.ModeloFaltas">
+    <Position X="3.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ModeloFaltas.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="comando" />
+      <Field Name="miConexion" />
+      <Field Name="reader" />
+      <Field Name="sql" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.ModeloJugadores">
+    <Position X="9" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>FAEAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ModeloJugadores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="comando" />
+      <Field Name="miConexion" />
+      <Field Name="reader" />
+      <Field Name="sql" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.modeloUsuarios">
+    <Position X="14" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAEEAAAAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>modeloUsuarios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="comando" />
+      <Field Name="miConexion" />
+      <Field Name="reader" />
+      <Field Name="sql" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.modeloSesion">
+    <Position X="12" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>modeloSesion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="comando" />
+      <Field Name="miConexion" />
+      <Field Name="reader" />
+      <Field Name="sql" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LigaPro22.Usuario">
+    <Position X="2" Y="14" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAACEAAAAgAAAAAAAAAQCAAQAAgAEAgA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="id" />
+      <Field Name="idTipo" />
+      <Field Name="nombre" />
+      <Field Name="password" />
+      <Field Name="passwordConfirma" />
+      <Field Name="usuario" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MySql.Data.MySqlClient.MySqlCommand" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="MySql.Data.MySqlClient.MySqlConnection" Collapsed="true">
+    <Position X="16.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MySql.Data.MySqlClient.MySqlDataReader" Collapsed="true">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="8.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.DateTime" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
